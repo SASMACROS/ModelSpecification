@@ -1,1 +1,16 @@
 
+
+%let datain=; 							/*Location of main data set saved*/
+%let dataout=; 							/*Location of report will be saved*/
+%let dataset=; /*Name of the main data*			/
+%let yvar=; /*Dependent variable of interest (0/1)*/
+%let xvar_cont=; /*Independent variable of interest in linear*/
+%let xvar_cat=; /*Independent variable of interest in categorical*/ asdf
+%let num_cat=; /*# of categories of above categorical variable*/
+%let ref_xvar_cat=; 					/*Specify the reference group of the independent variable
+of interest categorical for linear regression only)*/
+%let knot=; /*# of Knots for Spline*/
+%let norm=; /*Normalization method of constructed variable to get spline terms*/
+%let covarlist_cont=; /*adjusted covariates (continuous)*/
+
+%let covarlist_cat=; /*adjusted covariates (categorical)*/
