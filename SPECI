@@ -1,12 +1,12 @@
 /************************************************************************************************************/
-/*       NAME: SPECI.SAS                                         				  					    	*/
-/*      TITLE: Functional form Specification for Linear, Logistic, and Survial Models  			       		*/
-/*     AUTHOR: Sai Liu, MPH, Stanford University                                          					*/
-/*		   OS: Windows 7 Ultimate 64-bit																	*/
-/*	 Software: SAS 9.4																						*/
-/*       DATE: 09 FEB 2017                                        											*/
-/*DESCRIPTION: This program produces a one-page report to help users compare and select the appropriate 	*/
-/*			   functional form of a variable in linear, categorical, and spline form                        */
+/*       NAME: SPECI.SAS                                         				  	    */
+/*      TITLE: Functional form Specification for Linear, Logistic, and Survial Models  			    */
+/*     AUTHOR: Sai Liu, MPH, Stanford University                                          		    */
+/*		   OS: Windows 7 Ultimate 64-bit							    */
+/*	 Software: SAS 9.4								    		    */
+/*       DATE: 09 FEB 2017                                        					    */
+/*DESCRIPTION: This program produces a one-page report to help users compare and select the appropriate     */
+/*			   functional form of a variable in linear, categorical, and spline form            */
 /************************************************************************************************************/
 
 options nofmterr symbolgen mlogic notes;
